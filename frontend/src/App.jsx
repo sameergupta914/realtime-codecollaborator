@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Editor from '@monaco-editor/react';
 import Markdown from 'react-markdown';
 
-const socket = io("http://localhost:5001/");
+const socket = io("https://synccode-34hb.onrender.com/");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
