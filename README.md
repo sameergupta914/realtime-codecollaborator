@@ -65,7 +65,20 @@ cd backend
 npm install
 
 # Install dependencies for frontend
+cd ../frontend
+npm install
+
+# Start backend
+cd backend
+npm start
+
+# In a new terminal: start frontend
+cd frontend
+npm run dev
+
 ```
+- Important: Change this line in App.jsx when testing locally:
+  const socket = io("http://localhost:5001");
 
 # Configuration
 
