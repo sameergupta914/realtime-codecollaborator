@@ -71,21 +71,26 @@ npm install
 
 - Create a .env file in the backend folder with:
 
+```env
   GEMINI_API_KEY=your_gemini_api_key_here
   PORT=5001   # or your preferred port
+```
+```bash
 
 realtime-codecollaborator/
 ├── backend/
-│   ├── index.js (or server files)         # Socket.IO logic, Piston, Gemini integration
-│   ├── .env                                # Gemini key, port
-│   └── package.json, etc.
+│   ├── index.js              # Socket.IO logic, Piston, Gemini integration
+│   ├── .env                  # Gemini key, port
+│   ├── package.json
+│   └── ...
 └── frontend/
     ├── src/
-    │   ├── App.jsx                         # Main React component
-    │   ├── components/ …                   # UI, editor, modals
-    │   └── styles …
-    ├── public/ …
-    └── package.json
+    │   ├── App.jsx           # Main React component
+    │   ├── components/       # UI, editor, modals
+    │   └── styles/           # CSS / styling
+    ├── public/
+    ├── package.json
+    └── ...
+```
 
-cd ../frontend
-npm install
+
