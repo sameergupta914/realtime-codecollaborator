@@ -1,6 +1,6 @@
 # Realtime Code Collaborator
 
-[![Live](https://synccode-34hb.onrender.com/)
+**[CodeCollab Live](https://synccode-34hb.onrender.com/)**
 
 A web application for real-time collaborative coding. Multiple users can join a “code room”, edit code live together, run code using an online API, and get AI-powered code reviews.
 
